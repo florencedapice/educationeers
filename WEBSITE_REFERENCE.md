@@ -14,7 +14,10 @@ Teachers, administrators, and policy makers in Northern New England want to give
 
 1. **Overwork** — they are already stretched thin and don't have time to search for resources
 2. **Lack of region-specific resources** — generic national resources don't reflect NNE's local context, ecosystems, and communities
-3. **Isolation** — educators who try to start PBL/NBE initiatives often feel siloed, with no community or network to connect to
+3. **Isolation** — educators who try to start PBL/NBE initiatives often feel  siloed, with no community or network to connect toe
+
+e
+
 
 ---
 
