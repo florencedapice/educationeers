@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curricular Projects — Educationeers</title>
+  <meta name="description" content="Real examples of Place Based Learning happening inside NNE schools — classes, programs, partnerships, and more.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="Educationeers logo"></a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li class="nav-dropdown">
+          <button aria-haspopup="true">Current Projects ▾</button>
+          <ul class="dropdown-menu" role="list">
+            <li><a href="curricular-projects.html">Curricular Projects</a></li>
+            <li><a href="extracurricular-projects.html">Extracurricular Projects</a></li>
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <button aria-haspopup="true">Resources ▾</button>
+          <ul class="dropdown-menu" role="list">
+            <li><a href="curricular-resources.html">Curricular Resources</a></li>
+            <li><a href="extracurricular-resources.html">Extracurricular Resources</a></li>
+            <li><a href="professional-development.html">Professional Development</a></li>
+            <li><a href="grants.html">Grants</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfaMUXRs_eb4eyFwrPAUzE-ExH7sqrETsNeq6ZsvdpuLi2Y7g/viewform" target="_blank" class="nav-submit">Submit a Resource</a></li>
+      </ul>
+      <button class="nav-hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+    <div class="container"><nav class="mobile-nav">
+      <a href="index.html">Home</a><a href="research.html">Research</a>
+      <a href="curricular-projects.html">Curricular Projects</a><a href="extracurricular-projects.html">Extracurricular Projects</a>
+      <a href="curricular-resources.html">Curricular Resources</a><a href="extracurricular-resources.html">Extracurricular Resources</a>
+      <a href="professional-development.html">Professional Development</a><a href="grants.html">Grants</a>
+      <a href="about.html">About Us</a><a href="https://docs.google.com/forms/d/e/1FAIpQLSfaMUXRs_eb4eyFwrPAUzE-ExH7sqrETsNeq6ZsvdpuLi2Y7g/viewform" target="_blank">Submit a Resource</a>
+    </nav></div>
+  </nav>
+
+  <div class="page-hero">
+    <img src="images/header-forest-lake.jpg" alt="Students on a forest trail in Northern New England" class="page-hero-img">
+    <div class="page-hero-overlay"><h1 class="page-hero-title">Curricular Projects</h1></div>
+  </div>
+
+  <div class="page-intro">
+    <div class="container">
+      <p>These are real examples of Place Based Learning happening inside NNE schools right now — from state policies that support PBL to classroom programs, partnerships, and hands-on community learning. Browse what schools are doing and imagine what yours could do too.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="filters">
+        <div class="filter-group">
+          <label for="filter-type">Type</label>
+          <select id="filter-type" data-filter="type">
+            <option value="">All types</option>
+            <option value="state policy">State Policy</option>
+            <option value="classroom pbl">Classroom PBL</option>
+            <option value="partnership">Partnership Program</option>
+            <option value="cte">CTE / HS Classes</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-location">State</label>
+          <select id="filter-location" data-filter="location">
+            <option value="">All states</option>
+            <option value="me">Maine</option>
+            <option value="nh">New Hampshire</option>
+            <option value="vt">Vermont</option>
+            <option value="ma">Massachusetts</option>
+          </select>
+        </div>
+        <button class="filter-reset">Reset filters</button>
+      </div>
+
+      <div class="no-results">No projects match your filters. Try resetting.</div>
+
+      <div class="cards-grid">
+
+        <article class="card" data-filters='{"type":"state policy","location":"me"}'>
+          <span class="card-tag">State Policy</span>
+          <h2 class="card-title">Place Based Learning — Maine DOE</h2>
+          <p class="card-summary">Maine's Department of Education has developed a policy that actively supports and provides frameworks for schools implementing Place Based Learning across the state.</p>
+          <div class="card-meta"><span>Maine DOE</span><span>Maine</span></div>
+          <a href="https://www.maine.gov/doe/learning/II/Place" target="_blank" class="card-link">View the policy →</a>
+        </article>
+
+        <article class="card" data-filters='{"type":"state policy","location":"nh"}'>
+          <span class="card-tag">State Policy</span>
+          <h2 class="card-title">Extended Learning Opportunities — NH DOE</h2>
+          <p class="card-summary">New Hampshire's "Learn Everywhere" policy enables students to earn graduation credits through certified programs taking place outside the traditional classroom, creating a statewide framework for community-based learning.</p>
+          <div class="card-meta"><span>NH Department of Education</span><span>New Hampshire</span></div>
+          <a href="https://www.education.nh.gov/who-we-are/division-of-education-and-analytic-resources/bureau-educational-opportunities/learn-everywhere" target="_blank" class="card-link">View the policy →</a>
+        </article>
+
+        <article class="card" data-filters='{"type":"classroom pbl","location":"nh"}'>
+          <span class="card-tag">Classroom PBL</span>
+          <h2 class="card-title">2022 Place-Based Educators Spotlight</h2>
+          <p class="card-summary">A collection of examples featuring NH teachers who are actively doing Place Based Learning in their classrooms, compiled by the Place Based Education network in the Monadnock Region of New Hampshire.</p>
+          <div class="card-meta"><span>Place Based Education in the Monadnock Region</span><span>New Hampshire</span></div>
+          <a href="https://monadnockpbe.weebly.com/examples-of-place-based-education.html" target="_blank" class="card-link">See the examples →</a>
+        </article>
+
+        <article class="card" data-filters='{"type":"classroom pbl","location":"vt"}'>
+          <span class="card-tag">Classroom PBL</span>
+          <h2 class="card-title">Place-Based Learning Land Use Analysis</h2>
+          <p class="card-summary">An interdisciplinary Place Based Learning project at Hartford High School in Vermont that combines academic subjects with hands-on gardening and land-use analysis, developed in partnership with Teton Science Schools.</p>
+          <div class="card-meta"><span>Hartford School District / Teton Science Schools</span><span>Vermont</span></div>
+          <a href="https://ruralschoolscollaborative.org/stories/place-based-learning-land-use-analysis" target="_blank" class="card-link">Read the story →</a>
+        </article>
+
+        <article class="card" data-filters='{"type":"partnership","location":"me"}'>
+          <span class="card-tag">Partnership Program</span>
+          <h2 class="card-title">Maine Solutionaries</h2>
+          <p class="card-summary">A partnership program run by the Institute for Humane Education that engages students across 137 Maine schools in local problem-solving projects, connecting classrooms to real community challenges.</p>
+          <div class="card-meta"><span>Institute for Humane Education</span><span>Maine</span></div>
+          <a href="https://www.canva.com/design/DAGr1BZaxSo/6DaL9Ypd-glYSO-03NDO0g/view?utm_content=DAGr1BZaxSo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=haad8328ed4#1" target="_blank" class="card-link">Learn more →</a>
+        </article>
+
+        <article class="card" data-filters='{"type":"cte","location":"vt"}'>
+          <span class="card-tag">CTE / HS Classes</span>
+          <h2 class="card-title">Community and Climate Resilience Through Agriculture, Forestry and Technology</h2>
+          <p class="card-summary">A community-based agricultural education program at Woodstock Union High School in Vermont that connects students to local food systems, forestry, and technology through hands-on learning in their region.</p>
+          <div class="card-meta"><span>Woodstock Union High School</span><span>Woodstock, Vermont</span></div>
+          <a href="https://23sheere04.edublogs.org/" target="_blank" class="card-link">Visit the program →</a>
+        </article>
+
+        <article class="card" data-filters='{"type":"cte","location":"nh"}'>
+          <span class="card-tag">HS Classes</span>
+          <h2 class="card-title">Project Based Learning — Franklin High School</h2>
+          <p class="card-summary">Franklin High School in New Hampshire has made project-based community learning a central part of its curriculum following a "Portrait of a Graduate" implementation, giving students real-world challenges to solve in their local area.</p>
+          <div class="card-meta"><span>Franklin High School</span><span>Franklin, New Hampshire</span></div>
+          <a href="https://www.sau18.nh.gov/o/fhs/documents/accelerated-learning/project-based-learning/16315242" target="_blank" class="card-link">Learn more →</a>
+        </article>
+
+        <article class="card" data-filters='{"type":"cte","location":"ma"}'>
+          <span class="card-tag">CTE / HS Classes</span>
+          <h2 class="card-title">Career and Technical Education Program in Environmental Science</h2>
+          <p class="card-summary">Boston Green Academy offers a four-year CTE pathway in environmental science that combines classroom learning with hands-on fieldwork, HAZWOPER certification, and a paid senior internship — all rooted in the local urban environment.</p>
+          <div class="card-meta"><span>Boston Green Academy</span><span>Boston, Massachusetts</span></div>
+          <a href="https://www.bostongreenacademy.org/enviroscience-pathway" target="_blank" class="card-link">Visit the program →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand"><img src="images/logo.png" alt="Educationeers"><p>A Hub for Place Based Learning in Northern New England</p></div>
+        <nav class="footer-nav">
+          <a href="index.html">Home</a><a href="research.html">Research</a>
+          <a href="curricular-projects.html">Curricular Projects</a><a href="extracurricular-projects.html">Extracurricular Projects</a>
+          <a href="curricular-resources.html">Curricular Resources</a><a href="extracurricular-resources.html">Extracurricular Resources</a>
+          <a href="professional-development.html">Professional Development</a><a href="grants.html">Grants</a>
+          <a href="about.html">About Us</a>
+        </nav>
+        <div class="footer-right"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfaMUXRs_eb4eyFwrPAUzE-ExH7sqrETsNeq6ZsvdpuLi2Y7g/viewform" target="_blank" class="btn">Submit a Resource</a></div>
+      </div>
+      <p class="footer-copy">© 2026 Educationeers. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/filters.js"></script>
+</body>
+</html>

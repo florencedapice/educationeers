@@ -14,22 +14,22 @@ This is intentional. The more detail you give me now, the closer the final websi
 
 **Progress tracker:**
 
-- [ ] Step 1 — Site Identity & Name
-- [ ] Step 2 — Mission & Messaging
-- [ ] Step 3 — Site Structure & Pages
-- [ ] Step 4 — Navigation & Layout Shell
-- [ ] Step 5 — Homepage
-- [ ] Step 6 — Research Page
-- [ ] Step 7 — Curricular Projects Page
-- [ ] Step 8 — Extracurricular Projects Page
-- [ ] Step 9 — Curricular Resources Page
-- [ ] Step 10 — Extracurricular Resources Page
-- [ ] Step 11 — Visual Identity (Colors)
-- [ ] Step 12 — Visual Identity (Typography)
-- [ ] Step 13 — Visual Identity (Imagery & Icons)
-- [ ] Step 14 — Footer & Contact
-- [ ] Step 15 — Deployment & Domain
-- [ ] Step 16 — Final Review & Pre-Build Sign-Off
+- [x] Step 1 — Site Identity & Name
+- [x] Step 2 — Mission & Messaging
+- [x] Step 3 — Site Structure & Pages
+- [x] Step 4 — Navigation & Layout Shell
+- [x] Step 5 — Homepage
+- [x] Step 6 — Research Page
+- [x] Step 7 — Curricular Projects Page
+- [x] Step 8 — Extracurricular Projects Page
+- [x] Step 9 — Curricular Resources Page
+- [x] Step 10 — Extracurricular Resources Page
+- [x] Step 11 — Visual Identity (Colors)
+- [x] Step 12 — Visual Identity (Typography)
+- [x] Step 13 — Visual Identity (Imagery & Icons)
+- [x] Step 14 — Footer & Contact
+- [x] Step 15 — Deployment & Domain
+- [x] Step 16 — Final Review & Pre-Build Sign-Off
 
 ---
 
